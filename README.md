@@ -1,4 +1,4 @@
-# NL2SQL Bot
+# TEXT-TO-SQL Bot Using LlamaIndex And Gemini
 
 This project provides a natural language to SQL (NL2SQL) conversion tool using machine learning models, specifically leveraging **Gemini** LLM and **SQLAlchemy** for database interactions. The app allows users to input natural language queries, and it will convert them into corresponding SQL queries, which are then executed against a database.
 
