@@ -1,0 +1,59 @@
+1. Question: Find all orders where the customer’s name contains ‘John’, and the order status is ‘shipped’.
+SQL Query: SELECT * FROM orders WHERE LOWER(customer_name) LIKE LOWER('%John%') AND LOWER(order_status) LIKE LOWER('%shipped%');
+###
+2. Question: List all employees whose last name contains 'Smith' and who work in the 'Sales' department.
+SQL Query: SELECT * FROM employees WHERE LOWER(last_name) LIKE LOWER('%Smith%') AND LOWER(department) LIKE LOWER('%Sales%');
+###
+3. Question: Retrieve all products where the name contains ‘Pro’ and the category is ‘Electronics’.
+SQL Query: SELECT * FROM products WHERE LOWER(product_name) LIKE LOWER('%Pro%') AND LOWER(category) LIKE LOWER('%Electronics%');
+###
+4. Question: Find all customers whose email contains ‘gmail’ and who are from the city ‘Los Angeles’.
+SQL Query: SELECT * FROM customers WHERE LOWER(email) LIKE LOWER('%gmail%') AND LOWER(city) LIKE LOWER('%Los Angeles%');
+###
+5. Question: List all transactions where the description contains ‘refund’ and the amount is greater than 100.
+SQL Query: SELECT * FROM transactions WHERE LOWER(description) LIKE LOWER('%refund%') AND amount > 100;
+###
+6. Question: Find all suppliers whose company name contains ‘Tech’ and the location is ‘California’.
+SQL Query: SELECT * FROM suppliers WHERE LOWER(company_name) LIKE LOWER('%Tech%') AND LOWER(location) LIKE LOWER('%California%');
+###
+7. Question: Retrieve all students whose name contains ‘Alex’ and who are enrolled in the ‘Mathematics’ course.
+SQL Query: SELECT * FROM students WHERE LOWER(student_name) LIKE LOWER('%Alex%') AND LOWER(course) LIKE LOWER('%Mathematics%');
+###
+8. Question: Find all events where the title contains ‘Workshop’ and the date is after ‘2025-01-01’.
+SQL Query: SELECT * FROM events WHERE LOWER(event_title) LIKE LOWER('%Workshop%') AND event_date > '2025-01-01';
+###
+9. Question: List all orders where the product name contains ‘Laptop’ and the order date is before ‘2024-12-31’.
+SQL Query: SELECT * FROM orders WHERE LOWER(product_name) LIKE LOWER('%Laptop%') AND order_date < '2024-12-31';
+###
+10. Question: Find all books where the title contains ‘Harry’ and the author’s last name contains ‘Rowling’.
+SQL Query: SELECT * FROM books WHERE LOWER(title) LIKE LOWER('%Harry%') AND LOWER(author_last_name) LIKE LOWER('%Rowling%');
+###
+11. Question: Retrieve all employees whose name contains ‘Michael’ and who have a salary greater than 50000.
+SQL Query: SELECT * FROM employees WHERE LOWER(first_name) LIKE LOWER('%Michael%') AND salary > 50000;
+###
+12. Question: List all customers whose last name contains ‘Williams’ and who have placed an order after ‘2023-06-15’.
+SQL Query: SELECT * FROM customers WHERE LOWER(last_name) LIKE LOWER('%Williams%') AND order_date > '2023-06-15';
+###
+13. Question: Find all flights where the destination contains ‘Paris’ and the departure time is after ‘2025-01-01’.
+SQL Query: SELECT * FROM flights WHERE LOWER(destination) LIKE LOWER('%Paris%') AND departure_time > '2025-01-01';
+###
+14. Question: Retrieve all employees whose name contains ‘Jessica’ and who work in the ‘Finance’ department.
+SQL Query: SELECT * FROM employees WHERE LOWER(first_name) LIKE LOWER('%Jessica%') AND LOWER(department) LIKE LOWER('%Finance%');
+###
+15. Question: List all orders where the product name contains ‘Phone’ and the price is greater than 300.
+SQL Query: SELECT * FROM orders WHERE LOWER(product_name) LIKE LOWER('%Phone%') AND price > 300;
+###
+16. Question: Find all customers whose address contains ‘Main St’ and have an account balance greater than 1000.
+SQL Query: SELECT * FROM customers WHERE LOWER(address) LIKE LOWER('%Main St%') AND account_balance > 1000;
+###
+17. Question: Retrieve all employees who joined after ‘2023-01-01’ and whose job title contains ‘Manager’.
+SQL Query: SELECT * FROM employees WHERE hire_date > '2023-01-01' AND LOWER(job_title) LIKE LOWER('%Manager%');
+###
+18. Question: List all products where the name contains ‘Smart’ and the stock quantity is greater than 50.
+SQL Query: SELECT * FROM products WHERE LOWER(product_name) LIKE LOWER('%Smart%') AND stock_quantity > 50;
+###
+19. Question: Find all transactions where the transaction type contains ‘transfer’ and the transaction date is before ‘2024-01-01’.
+SQL Query: SELECT * FROM transactions WHERE LOWER(transaction_type) LIKE LOWER('%transfer%') AND transaction_date < '2024-01-01';
+###
+20. Question: Retrieve all orders where the customer’s name contains ‘Anna’ and the order status is ‘delivered’.
+SQL Query: SELECT * FROM orders WHERE LOWER(customer_name) LIKE LOWER('%Anna%') AND LOWER(order_status) LIKE LOWER('%delivered%');

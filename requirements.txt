@@ -1,0 +1,5 @@
+llama-index-llms-gemini
+llama-index
+llama-index-embeddings-gemini
+sqlalchemy
+streamlit
